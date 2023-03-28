@@ -80,14 +80,14 @@ const DetailPage = () => {
                                     <div className="line"></div>
                                     <div className="share-to-social">
                                         <FacebookShareButton
-                                            url={'http://localhost:3000/'}
+                                            url={'https://phoeukpha.github.io/ReactJS_Movie_using_API_TMDB/'}
                                             quote={`Watch ${detailData.title}`}
                                             className="facebook">
                                             <FacebookIcon size={40} round />
                                         </FacebookShareButton>
 
                                         <TelegramShareButton
-                                            url={'http://localhost:3000/'}
+                                            url={'https://phoeukpha.github.io/ReactJS_Movie_using_API_TMDB/'}
                                             title={`Watch ${detailData.title}`}
                                             className="telegram">
                                             <TelegramIcon size={40} round />

@@ -12,7 +12,7 @@ function App() {
     <div className='container'>
       <Navigation />
       <Routes>
-        <Route exact path='/' Component={HomePage} />
+        <Route exact path='ReactJS_Movie_using_API_TMDB/' Component={HomePage} />
         <Route exact path='/filter' Component={FilterPage} />
         <Route exact path='/movie/:id' Component={DetailPage} />
       </Routes>

@@ -8,8 +8,7 @@ const Navigation = () => {
     return (
         <nav className='navbar navbar-expand-lg navbar-light bg-dark'>
             <div className='container'>
-                <Link to={'/'} className ='navbar-brand text-white'>Movie</Link>
-                <a className='' href='#'></a>
+                <Link to={'ReactJS_Movie_using_API_TMDB/'} className ='navbar-brand text-white'>Movie</Link>
                 <button className='btn btn-dark text-white navbar-toggler border-3 px-2' type='button'
                     data-bs-toggle='offcanvas' data-bs-target='#offcanvasExample' aria-controls='offcanvasExample'>
                     <FontAwesomeIcon icon={faAlignRight} />
