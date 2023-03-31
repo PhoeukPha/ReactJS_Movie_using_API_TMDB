@@ -9,7 +9,7 @@ const Card = ({ id, title, img }) => {
         <div className="col-6 col-sm-6 col-md-3 col-xl-3 mt-2">
             <div className="card card_custom_item">
                 <Link to={{
-                    pathname: `movie/${id}`,
+                    pathname: `ReactJS_Movie_using_API_TMDB/movie/${id}`,
                     state: {
                         stateName: "state to be passed."
                     }
